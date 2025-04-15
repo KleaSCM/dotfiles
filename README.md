@@ -48,8 +48,11 @@ ln -sf ~/Pictures/wallpaper/        ~/dotfiles/wallpaper
 ## 🎨 Preview Screenshots
 
 - 🔹 Terminal + Kitty
+![Screenshot_20250415_080422](https://github.com/user-attachments/assets/99f55ccf-8f75-4dfe-9f59-90be2afafa5e)
 - 🔹 Neovim (init.lua + custom lua modules)
+![Screenshot_20250414_095253](https://github.com/user-attachments/assets/bd7c8a4c-0cf3-4232-8cd6-6a194294e4a1)
 - 🔹 Rofi Launcher
+![Screenshot_20250415_080533](https://github.com/user-attachments/assets/63262109-d646-4639-bbd7-350b4879327a)
 
 ## 🛠️ Scripts
 
@@ -83,7 +86,9 @@ Run from rofi, or directly:
 ~/Documents/Scripts/rofi_launcher.sh
 ```
 
-📸 [PLACEHOLDER_IMG] Gremlin Launcher UI Screenshot Here
+📸  Gremlin Launcher UI
+![Uploading Screenshot_20250415_080533.png…]()
+
 
 ## 🛠️ Tech Stack
 
@@ -159,5 +164,7 @@ Placeholder auto-badges coming in future pipeline. Imagine them. They sparkle.�
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MIT, because.
+
+
 
 
