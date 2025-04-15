@@ -1,18 +1,4 @@
-<h1 id="typed-title" style="color: #0F0F0F; text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;"></h1>
-
-<script>
-  const text = "🌒 Klea's Dotfiles";
-  let i = 0;
-  function type() {
-    if (i < text.length) {
-      document.getElementById("typed-title").innerHTML += text.charAt(i);
-      i++;
-      setTimeout(type, 100);
-    }
-  }
-  window.onload = type;
-</script>
-
+![Typing SVG](https://readme-typing-svg.demolab.com?lines=🌒+Klea's+Dotfiles;Darkmode+Gremlin+Dev+Theme)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/klea/dotfiles?style=social)](https://github.com/klea/dotfiles/stargazers)
