@@ -135,8 +135,8 @@ Launch the script menu with:
 
 Or bind it to a hotkey for on demand
 
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=800&color=00FF00&center=true&vCenter=true&width=700&lines=Set+up+a+systemd+user+service+(if+you're+fancy);to+launch+dynamic+wallpapers+or+plasma-hud+at+login)
 
-![Typing Example](https://raw.githubusercontent.com/klea/dotfiles/main/assets/typing-systemd.gif)
 
 Set up a systemd user service (if you're fancy) to launch dynamic wallpapers or plasma-hud at login.
 
