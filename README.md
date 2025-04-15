@@ -9,8 +9,6 @@
 
 > 🧪 **Built for chaos. Optimized for clarity.**
 
-![Darkmode Gremlin Theme](https://placehold.co/1200x300/0F0F0F/FFF?text=PLACEHOLDER+HEADER+IMAGE)
-
 Welcome to my dotfiles — carefully curated chaos built on [Arch Linux](https://archlinux.org) with Plasma 6, zsh, kitty, neovim, and rofi.
 
 ## 🗂️ Structure
@@ -85,11 +83,6 @@ Run from rofi, or directly:
 ```bash
 ~/Documents/Scripts/rofi_launcher.sh
 ```
-
-📸  Gremlin Launcher UI
-![Uploading Screenshot_20250415_080533.png…]()
-
-
 ## 🛠️ Tech Stack
 
 - a 6.3.4 Wayland
