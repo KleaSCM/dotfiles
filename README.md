@@ -47,8 +47,6 @@ ln -sf ~/Pictures/wallpaper/        ~/dotfiles/wallpaper
 
 ## 🎨 Preview Screenshots
 
-Screenshots coming soon! Replace placeholder images below.
-
 - 🔹 Terminal + Kitty
 - 🔹 Neovim (init.lua + custom lua modules)
 - 🔹 Rofi Launcher
@@ -98,8 +96,8 @@ Run from rofi, or directly:
 - 🎭 Wallpapers via qdbus + rofi menu integration
 
 ## 📅 Last Updated
+2025-04-15
 
-{date.today().strftime('%Y-%m-%d')}
 
 ## 🧙‍♀️ Badge Generator
 
