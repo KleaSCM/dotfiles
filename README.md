@@ -11,7 +11,7 @@
 
 ![Darkmode Gremlin Theme](https://placehold.co/1200x300/0F0F0F/FFF?text=PLACEHOLDER+HEADER+IMAGE)
 
-Welcome to my dotfiles — carefully curated chaos built on [Arch Linux](https://archlinux.org) with Plasma 6, zsh, kitty, neovim, and all the rofi sass a gremlin dev deserves.
+Welcome to my dotfiles — carefully curated chaos built on [Arch Linux](https://archlinux.org) with Plasma 6, zsh, kitty, neovim, and rofi.
 
 ## 🗂️ Structure
 
@@ -95,9 +95,60 @@ Run from rofi, or directly:
 - 🎨 KDE Configs: kdeglobals, kglobalshortcutsrc
 - 🎭 Wallpapers via qdbus + rofi menu integration
 
+## 📦 Install & Setup
+
+Clone the chaos into your home:
+
+```bash
+git clone https://github.com/KleaTheGremlin/klea-dotfiles.git ~/dotfiles
+```
+
+Link your soul (and configs):
+
+```bash
+ln -s ~/dotfiles/nvim ~/.config/nvim
+ln -s ~/dotfiles/rofi ~/.config/rofi
+ln -s ~/dotfiles/zshrc ~/.config/zshrc
+ln -s ~/dotfiles/bashrc ~/.config/bashrc
+ln -s ~/dotfiles/ohmyposh ~/.config/ohmyposh
+ln -s ~/dotfiles/kitty ~/.config/kitty
+ln -s ~/dotfiles/kdeglobals ~/.config/kdeglobals
+ln -s ~/dotfiles/kglobalshortcutsrc ~/.config/kglobalshortcutsrc
+ln -s ~/dotfiles/scripts ~/Documents/Scripts
+ln -s ~/dotfiles/wallpaper ~/Pictures/wallpapers
+```
+
+Optional Install supporting goodies:
+
+```bash
+sudo pacman -S rofi kitty feh mpv xwinwrap zsh oh-my-posh
+yay -S plasma-hud-git
+```
+
+### Give Rofi life:
+
+Launch the script menu with:
+
+```bash
+~/Documents/Scripts/rofi_launcher.sh
+```
+
+Or bind it to a hotkey for on demand
+
+
+![Typing Example](https://raw.githubusercontent.com/klea/dotfiles/main/assets/typing-systemd.gif)
+
+Set up a systemd user service (if you're fancy) to launch dynamic wallpapers or plasma-hud at login.
+
+
+## 📌 Notes
+
+- 🧪 Uses qdbus to control Plasma shell for wallpaper changes.
+- 🧵 Rofi menus dynamically detect categories.
+- 🐉 Whole system thrives on chaos, synergy, and your preferred terminal emulator (defaults to kitty, of course).
+
 ## 📅 Last Updated
 2025-04-15
-
 
 ## 🧙‍♀️ Badge Generator
 
