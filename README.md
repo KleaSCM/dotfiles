@@ -1,0 +1,127 @@
+#  ██╗  ██╗██╗     ███████╗ █████╗     ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗
+#  ██║ ██╔╝██║     ██╔════╝██╔══██╗    ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝
+#  █████╔╝ ██║     █████╗  ███████║    ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗
+#  ██╔═██╗ ██║     ██╔══╝  ██╔══██║    ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║
+#  ██║  ██╗███████╗███████╗██║  ██║    ██████╔╝╚██████╔╝   ██║   ███████╗██║███████╗███████╗███████║
+#  ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝╚══════╝╚══════╝╚══════╝
+#  ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗
+#  ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝
+#  ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗
+#  ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║
+#  ██████╔╝╚██████╔╝   ██║   ███████╗██║███████╗███████╗███████║
+#  ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝╚══════╝╚══════╝╚══════╝
+
+# 🌒 Klea's Darkmode Gremlin Dotfiles
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/klea/dotfiles?style=social)](https://github.com/klea/dotfiles/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/klea/dotfiles?style=social)](https://github.com/klea/dotfiles/network)
+[![GitHub issues](https://img.shields.io/github/issues/klea/dotfiles)](https://github.com/klea/dotfiles/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/klea/dotfiles)](https://github.com/klea/dotfiles/commits/main)
+[![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)](https://archlinux.org)
+
+> 🧪 **Built for chaos. Optimized for clarity.**
+
+![Darkmode Gremlin Theme](https://placehold.co/1200x300/0F0F0F/FFF?text=PLACEHOLDER+HEADER+IMAGE)
+
+Welcome to my dotfiles — carefully curated chaos built on [Arch Linux](https://archlinux.org) with Plasma 6, zsh, kitty, neovim, and all the rofi sass a gremlin dev deserves.
+
+## 🗂️ Structure
+
+```
+dotfiles/
+├── bashrc/                  # Custom bash config dir
+├── kdeglobals               # KDE global theme/colors
+├── kglobalshortcutsrc       # KDE global shortcut keys
+├── kitty/                   # kitty terminal config
+├── nvim/                    # Neovim full config (init.lua, lua/, plugins, etc.)
+├── ohmyposh/                # OhMyPosh prompt config
+├── rofi/                    # Rofi theme + launcher
+├── scripts/                 # All custom .sh launcher scripts
+├── wallpaper/               # Static wallpapers (jpg/png)
+├── zshrc/                   # ZSH config dir
+└── .git/                    # Git tracking
+```
+
+## 🔗 Symlink Restore Guide
+
+```bash
+ln -sf ~/.config/nvim/              ~/dotfiles/nvim
+ln -sf ~/.config/rofi/              ~/dotfiles/rofi
+ln -sf ~/Documents/Scripts/         ~/dotfiles/scripts
+ln -sf ~/.config/zshrc/             ~/dotfiles/zshrc
+ln -sf ~/.config/bashrc/            ~/dotfiles/bashrc
+ln -sf ~/.config/kitty/             ~/dotfiles/kitty
+ln -sf ~/.config/ohmyposh/          ~/dotfiles/ohmyposh
+ln -sf ~/.config/kdeglobals         ~/dotfiles/kdeglobals
+ln -sf ~/.config/kglobalshortcutsrc ~/dotfiles/kglobalshortcutsrc
+ln -sf ~/Pictures/wallpaper/        ~/dotfiles/wallpaper
+```
+
+## 🎨 Preview Screenshots
+
+Screenshots coming soon! Replace placeholder images below.
+
+- 🔹 Terminal + Kitty
+- 🔹 Neovim (init.lua + custom lua modules)
+- 🔹 Rofi Launcher
+
+## 🛠️ Scripts
+
+### 📂 Directory Structure
+```
+scripts/
+├── rofi_launcher.sh         # Main launcher — script selector, wallpaper mode switcher
+├── fix_script_paths.sh      # Dev utility to bulk-rewrite hardcoded paths
+├── Keybinds.lua             # Lua config for hotkey mapping
+└── wallgremlin.sh           # Gremlin script for managing wallpapers via rofi
+```
+
+### 📂 Sorted Scripts
+```
+scripts/sorted/
+├── admin/              # system & terminal UI mgmt tools (dashboard, cleaner, tabs, etc.)
+├── apps/               # launchers for app menus and terminal apps
+├── config/             # default launcher config
+├── dev/                # project templates for Go, Python, C++
+├── lib/                # shared functions (common.sh)
+├── logs/               # execution metrics (CPU, MEM, duration)
+├── tests/              # test harness for launcher validation
+├── uncategorized/      # misc utilities like ClipH, SQLite, sorting
+├── utils/              # permissions, troubleshooter, wallgremlin UI
+└── web/                # dev tools for Flask, HTML, web menus
+```
+
+### 🔧 Execution Example
+Run from rofi, or directly:
+```bash
+~/Documents/Scripts/rofi_launcher.sh
+```
+
+📸 [PLACEHOLDER_IMG] Gremlin Launcher UI Screenshot Here
+
+## 🛠️ Tech Stack
+
+- a 6.3.4 Wayland
+- 🐚 ZSH + OhMyZsh + OhMyPosh
+- 🧬 Kitty Terminal
+- 🧠 Neovim (Lua-first)
+- 🚀 Rofi with fuzzy launcher modes
+- 🎨 KDE Configs: kdeglobals, kglobalshortcutsrc
+- 🎭 Wallpapers via qdbus + rofi menu integration
+
+## 📅 Last Updated
+
+{date.today().strftime('%Y-%m-%d')}
+
+## 🧙‍♀️ Badge Generator
+
+Placeholder auto-badges coming in future pipeline. Imagine them. They sparkle.✨
+
+## 💖 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+MIT, because.
+
+
